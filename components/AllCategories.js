@@ -73,11 +73,6 @@ export default function AllCategories() {
                         </div>
                     </>
                 )}
-
-                { typeName && typeName.length !== 0 &&  (
-                    <h1 className="text-3xl font-semibold">Type: { typeName } :: No Results Found</h1>
-                )}
-                
                 
             </div>
         </>
